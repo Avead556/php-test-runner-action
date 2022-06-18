@@ -1,0 +1,8 @@
+name: PHP Test Runner
+description: PHP Test Runner Github Actions.
+
+runs:
+  using: "composite"
+  steps:
+    - run: ./test.sh
+      shell: bash
